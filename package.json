@@ -1,0 +1,32 @@
+{
+  "name": "bitfinex-sockets",
+  "version": "0.1.0",
+  "description": "node library for bitfinex",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vreyesd/bitfinex.sockets.git"
+  },
+  "keywords": [
+    "bitfinex",
+    "sockets",
+    "cryptocurrencies",
+    "exchange",
+    "trading"
+  ],
+  "author": "vreyesd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vreyesd/bitfinex-sockets/issues"
+  },
+  "homepage": "https://github.com/vreyesd/bitfinex.sockets#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "date-fns": "^2.10.0",
+    "ws": "^7.2.1"
+  }
+}
