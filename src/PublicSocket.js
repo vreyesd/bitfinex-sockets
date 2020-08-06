@@ -1,9 +1,8 @@
 const WebSocket = require('ws')
-const {now} = require('./utilities')
+const {logMessage} = require('./utilities')
 
 
-const logMessage = msg => `Public socket ${now()} - ${msg}`
-const print = msg => console.log(logMessage(msg))
+const print = msg => console.log(logMessage('Public socket', msg))
 
 
 class PublicSocket {
