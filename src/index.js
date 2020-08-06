@@ -1,3 +1,4 @@
+const PrivateSocket = require("./PrivateSocket")
 const PublicSocket = require("./PublicSocket")
 
-module.exports = {PublicSocket}
+module.exports = {PrivateSocket, PublicSocket}
