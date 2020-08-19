@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-npm install bitfinex-socket
+npm install bitfinex-sockets
 ```
 
 ## Usage
