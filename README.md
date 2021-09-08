@@ -10,7 +10,7 @@ npm install bitfinex-sockets
 ### [Public Client](https://docs.bitfinex.com/docs/ws-public)
 
 ```javascript
-const {PublicSocket} = require('bitfinex-socket')
+const {PublicSocket} = require('bitfinex-sockets')
 const pubSocket = new PublicSocket()
 ```
 
