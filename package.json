@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/vreyesd/bitfinex-sockets#readme",
   "devDependencies": {
-    "standard-version": "^9.5.0",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "husky": "^9.0.0"
+    "husky": "^9.1.7",
+    "standard-version": "^9.5.0"
   },
   "dependencies": {
     "crypto-js": "^4.0.0",
