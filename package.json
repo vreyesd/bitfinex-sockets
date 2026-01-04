@@ -4,7 +4,9 @@
   "description": "node library for bitfinex",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,12 @@
     "url": "https://github.com/vreyesd/bitfinex-sockets/issues"
   },
   "homepage": "https://github.com/vreyesd/bitfinex-sockets#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "standard-version": "^9.5.0",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "husky": "^9.0.0"
+  },
   "dependencies": {
     "crypto-js": "^4.0.0",
     "date-fns": "^2.10.0",
