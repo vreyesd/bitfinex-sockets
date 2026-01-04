@@ -93,7 +93,7 @@ class PublicSocket {
             this.channelConnected.push(connected)
             
         } else if (data.event === 'unsubscribed' && data.status === "OK") {
-            const index = this.connected.findIndex(c => JSON.parse(c).chanId === msg.chanId)
+            const index = this.channelConnected.findIndex(c => JSON.parse(c).chanId === msg.chanId)
             this.channelConnected.splice(index, 1)
         }
 
