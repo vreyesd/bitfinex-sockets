@@ -1,6 +1,6 @@
 {
   "name": "bitfinex-sockets",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "node library for bitfinex",
   "main": "src/index.js",
   "scripts": {
